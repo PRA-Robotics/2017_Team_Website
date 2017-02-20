@@ -1,0 +1,158 @@
+#header {
+    color: green;
+    text-align: center;
+    margin: 5px 10px 10px 10px;
+    font-size: 80px;
+}
+#subheader {
+    color: green;
+    text-align: center;
+    margin: 5px 10px 5px 10px;
+    font-size: 40px;
+}
+#lefttab {
+    margin: 10px 6px 10px 75px;
+}
+#homepic {
+    align-self: auto;
+    color: black;
+    border-width: 4px;
+    border: solid;
+    border-color: #00aa0e;
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    display: inline-block;
+    float: none;
+    margin-left: 5px;
+    overflow: hidden;
+}
+#body {
+    background-color: white;
+    align-self: auto;
+    height: 250px;
+    width: 500px;
+    margin: 10px 10px 10px 5px;
+    border: solid;
+    border-width: 4px;
+    border-color: #00aa0e;
+    display: inline-block;
+}
+#sidebarleft {
+    background-color: #303030;
+    width: 147px;
+    height: 601px;
+    z-index: 1;
+    display: inline-block;
+    margin: 0px 17px 10px 75px;
+    float: left;
+}
+#sidebarright {
+    background-color: #303030;
+    width: 147px;
+    height: 587px;
+    z-index: 1;
+    display: inline-block;
+    margin: -410px 75px 10px 4px;
+    float: right;
+}
+#bodyhead {
+    text-align: center;
+}
+#body1 {
+    margin: 0px 10px 0px 10px;
+}
+#body2 {
+    margin: 20px 10px 0px 10px;
+}
+#righthead {
+    text-align: center;
+    border: solid;
+    border-width: 4px;
+    border-color: #00aa0e;
+    background-color: white;
+}
+#teambesthead {
+    text-align: center;
+}
+#teambestbody {
+    text-align: center;
+    font-size: 14px;
+}
+#teambest {
+    background-color: white;
+    border: solid;
+    border-width: 4px;
+    border-color: #00aa0e;
+}
+#placeholder {
+    background-color: white;
+    border: solid;
+    border-width: 4px;
+    border-color: #00aa0e;
+    padding-left: 10px;
+}
+#tools {
+    background-color: white;
+    border: solid;
+    border-width: 4px;
+    border-color: #00aa0e;
+    margin-top: 15px;
+}
+#toolshead {
+    text-align: center;
+}
+.header {
+    color: black;
+    border-width: 4px;
+    border: solid;
+    border-color: #00aa0e;
+    background-color: white;
+    margin: 5px 75px 15px 75px;
+}
+.tabcontainer {
+    position: absolute, fixed;
+    width: 800px;
+    margin-left: 75px;
+}
+.tab {
+    color: black;
+    border-width: 5px;
+    border: solid;
+    border-color: #00aa0e;
+    background-color: white;
+    display: inline-block;
+    width: 199px;
+    margin: 5px 6px 5px 0px;
+    position: static;
+    z-index: 2;
+}
+.label {
+    font-size: 20px;
+    text-align: center;
+}
+.achieve1 {
+    padding-top: 2px;
+    padding-left: 10px;
+    background-color: gold;
+    border: solid;
+    border-width: 4px;
+    border-color: #00aa0e;
+}
+.achieve2 {
+    padding-top: 2px;
+    padding-left: 10px;
+    background-color: silver;
+    border: solid;
+    border-width: 4px;
+    border-color: #00aa0e;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #303030;
+}
+.tab:hover {
+    background-color: #303030;
+}
