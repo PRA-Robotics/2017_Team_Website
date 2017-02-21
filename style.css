@@ -31,7 +31,7 @@
     background-color: white;
     align-self: auto;
     height: 250px;
-    width: 500px;
+    width: 498px;
     margin: 10px 10px 10px 5px;
     border: solid;
     border-width: 4px;
@@ -44,17 +44,27 @@
     height: 601px;
     z-index: 1;
     display: inline-block;
-    margin: 0px 17px 10px 75px;
+    margin: 0px 20px 10px 75px;
     float: left;
 }
 #sidebarright {
     background-color: #303030;
     width: 147px;
-    height: 587px;
+    height: 674px;
     z-index: 1;
     display: inline-block;
-    margin: -410px 75px 10px 4px;
+    margin: -410px 75px 10px 0px;
     float: right;
+    overflow: hidden;
+    border-bottom: solid;
+    border-width: 4px;
+    border-color: #00aa0e;
+}
+#achievecontain {
+    height: 620px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 147px;
 }
 #bodyhead {
     text-align: center;

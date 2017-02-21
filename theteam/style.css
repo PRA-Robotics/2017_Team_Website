@@ -1,58 +1,52 @@
 #lefttab {
     margin: 10px 6px 10px 75px;
 }
-#hardware {
-    margin-left: 75px;
-    text-align: center;
-    float: left;
-}
-#software {
-    text-align: center;
-    float: none;
-}
-#organization {
-    text-align: center;
-    float: right;
-    margin-right: 75px;
-}
 #header {
-    height: 300px;
     margin: 10px 75px 10px 75px;
     background-color: white;
     border: solid;
     border-width: 4px;
     border-color: #00aa0e;
+    font-size: 30px;
 }
-#teamhead {
-    font-size: 60px;
+#headerhead {
     text-align: center;
     color: green;
 }
-#headerbody {
-    font-size: 15px;
-    text-align: center;
-    margin: 0px 10px 0px 10px;
-}
-#captain {
-    background-color: white;
+#teampic {
+    align: auto;
     border: solid;
     border-width: 4px;
     border-color: #00aa0e;
+    width: 533px;
     margin-left: 75px;
-    margin-right: 75px;
-}
-#captainp {
-    text-align: center;
-}
-.column {
-    margin: 10px 23px 10px 0px;
-    height: 500px;
-    width: 260px;
-    background-color: white;
+    margin-top: 15px;
+    height: 400px;
     display: inline-block;
+}
+#teamdirect {
+    display: inline-block;
+    overflow: hidden;
+    float: right;
+    margin-right: 75px;
+    width: 290px;
+    height: 420px;
+    margin-top: 15px;
+}
+#teamdescribe {
+    margin: 20px 75px 10px 75px;
     border: solid;
     border-width: 4px;
     border-color: #00aa0e;
+    background-color: white;
+}
+#directoryhead {
+    margin: 20px 75px 20px 75px;
+    background-color: white;
+    border: solid;
+    border-width: 4px;
+    border-color: #00aa0e;
+    text-align: center;
 }
 .tabcontainer {
     position: absolute, fixed;
@@ -61,7 +55,7 @@
 }
 .tab {
     color: black;
-    border-width: 4px;
+    border-width: 5px;
     border: solid;
     border-color: #00aa0e;
     background-color: white;
@@ -75,15 +69,43 @@
     font-size: 20px;
     text-align: center;
 }
-.deptimg {
-    height: 150px;
-    width: 200px;
+.teamdirtab {
+    text-align: center;
     border: solid;
     border-width: 4px;
     border-color: #00aa0e;
-    align-self: center;
-    margin-left: 26px;
-    overflow: hidden;
+    background-color: white;
+    margin-bottom: 7px;
+}
+.teamdirtext {
+    color: green;
+}
+.teampara {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.profile {
+    height: 300px;
+    margin: 20px 75px 0px 75px;
+    border: solid;
+    border-width: 4px;
+    border-color: #00aa0e;
+    background-color: white;
+}
+.profilepic {
+    height: 200px;
+    width: 200px;
+    margin: 47px 10px 47px 47px;
+    border: solid;
+    border-width: 4px;
+    display: inline-block;
+}
+.profiledescribe {
+    height: 200px;
+    width: 500px;
+    margin: 47px 47px 47px 10px;
+    display: inline-block;
+    float: right;
 }
 a {
     text-decoration: none;
@@ -92,5 +114,8 @@ body {
     background-color: #303030;
 }
 .tab:hover {
+    background-color: #303030;
+}
+.teamdirtab:hover {
     background-color: #303030;
 }
