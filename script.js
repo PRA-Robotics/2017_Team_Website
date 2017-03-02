@@ -1,7 +1,7 @@
 $(document).ready(function(){
     console.log("Boo!");
     $("#homepic > div:gt(0)").hide();
-
+    
     setInterval(function() {
       $('#homepic > div:first')
       .fadeOut(1000)
