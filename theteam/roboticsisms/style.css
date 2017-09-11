@@ -1,58 +1,54 @@
-#lefttab {
-    margin: 10px 6px 10px 75px;
-}
 #header {
-    margin: 10px 75px 10px 75px;
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, green, lime); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, green, lime); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, green, lime); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(bottom right, green, lime); /* Standard syntax */
+    height: 150px;
+}
+#headercont {
+    margin-left: 0;
+    height: 150px;
+    width: 600px;
+    overflow: hidden;
+}
+#tabcontainer {
+    margin-left: 0;
+    height: 50px;
     background-color: white;
-    border: solid;
-    border-width: 4px;
-    border-color: #00aa0e;
-    font-size: 30px;
+    overflow: hidden;
 }
-#headerhead {
-    text-align: center;
-    color: green;
+#lefttab {
+    margin-left: -53px;
 }
-#headerbody {
-    margin: 0px 20px 20px 20px;
-    font-size: 16px;
-}
-.quotecontain {
-    background-color: white;
-    margin: 20px 75px 10px 75px;
-    border: solid;
-    border-width: 4px;
-    border-color: #00aa0e;
-    height: 500px;
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-.tabcontainer {
-    position: absolute, fixed;
-    width: 800px;
-    margin-left: 75px;
+.headertext {
+    margin: 0px 0px 0px 40px;
+    color: white;
 }
 .tab {
-    color: black;
-    border-width: 5px;
-    border: solid;
-    border-color: #00aa0e;
-    background-color: white;
     display: inline-block;
-    width: 199px;
-    margin: 5px 6px 5px 0px;
-    position: static;
-    z-index: 2;
+    height: 40px;
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
 }
 .label {
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
 }
+.borderA {
+    height: 15px;
+    background: green;
+    background: -webkit-linear-gradient(left top, green, lime);
+    background: -o-linear-gradient(bottom right, green, lime);
+    background: -moz-linear-gradient(bottom right, green, lime);
+    background: linear-gradient(bottom right, green, lime);
+}
 .quotebox {
-    margin: 20px 75px 20px 75px;
-    border: solid;
+    border-bottom: solid;
     border-width: 4px;
-    border-color: #00aa0e;
+    border-color: black;
     background-color: white;
 }
 .quote {
@@ -68,12 +64,59 @@
 .quotelabel {
     text-align: center;
 }
+.sectionA {
+    height: 600px;
+    width: 1351px;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+}
+.sectionB {
+    height: 600px;
+    width: 1351px;
+    overflow: hidden;
+    text-align: center;
+    background: white;
+    margin: auto;
+}
+.sectionextend {
+    height: 600px;
+    background: white;
+}
+.sectionHeaderA {
+    font-size: 60px;
+    color: white;
+}
+.sectionHeaderB {
+    font-size: 60px;
+    color: black;
+}
+.sectionTextA {
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.sectionTextB {
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.extlink {
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    color: blue;
+}
 a {
     text-decoration: none;
+    color: black;
 }
 body {
     background-color: #303030;
-}
-.tab:hover {
-    background-color: #303030;
+    margin: 0;
 }

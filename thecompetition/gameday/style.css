@@ -1,0 +1,233 @@
+#header {
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, green, lime); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, green, lime); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, green, lime); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(bottom right, green, lime); /* Standard syntax */
+    height: 150px;
+}
+#headercont {
+    margin-left: 0;
+    height: 150px;
+    width: 600px;
+    overflow: hidden;
+}
+#tabcontainer {
+    margin-left: 0;
+    height: 50px;
+    background-color: white;
+    overflow: hidden;
+}
+#lefttab {
+    margin-left: -53px;
+}
+#accomplishments {
+    background-color: white;
+    height: 503px;
+    width: 320px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 3px;
+    display: inline-block;
+}
+#accomphead {
+    background: #00aa0e;
+    height: 30px;
+    margin: -20px 0px 0px 0px;
+    padding-left: 40px;
+}
+#homepic {
+    align-self: auto;
+    color: black;
+    border-width: 4px;
+    border: solid;
+    border-top: none;
+    border-color: #00aa0e;
+    background-color: white;
+    height: 500px;
+    width: 625px;
+    margin-right: 0px;
+    margin-top: 3px;
+    margin-left: 40px;
+    overflow: hidden;
+    display: inline-block;
+}
+#homepic {
+    align-self: auto;
+    color: black;
+    border-width: 4px;
+    border: solid;
+    border-color: #00aa0e;
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    display: inline-block;
+    float: none;
+    margin-left: 5px;
+    overflow: hidden;
+}
+#body {
+    background-color: white;
+    align-self: auto;
+    height: 250px;
+    width: 498px;
+    margin: 10px 10px 10px 5px;
+    border: solid;
+    border-width: 4px;
+    border-color: #00aa0e;
+    display: inline-block;
+}
+#sidebarleft {
+    background-color: #303030;
+    width: 147px;
+    height: 601px;
+    z-index: 1;
+    display: inline-block;
+    margin: 3px 20px 10px 75px;
+    float: left;
+}
+#sidebarright {
+    background-color: #303030;
+    width: 147px;
+    height: 674px;
+    z-index: 1;
+    display: inline-block;
+    margin: -410px 75px 10px 0px;
+    float: right;
+    overflow: hidden;
+    border-bottom: solid;
+    border-width: 4px;
+    border-color: #00aa0e;
+}
+#achievecontain {
+    height: 620px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 147px;
+}
+#bodyhead {
+    text-align: center;
+}
+#body1 {
+    margin: 0px 10px 0px 10px;
+}
+#body2 {
+    margin: 20px 10px 0px 10px;
+}
+#righthead {
+    text-align: center;
+    border: solid;
+    border-width: 4px;
+    border-color: #00aa0e;
+    background-color: white;
+}
+#teambesthead {
+    text-align: center;
+}
+#teambestbody {
+    text-align: center;
+    font-size: 14px;
+}
+#teambest {
+    background-color: white;
+    border: solid;
+    border-width: 4px;
+    border-color: #00aa0e;
+}
+#placeholder {
+    background-color: white;
+    border: solid;
+    border-width: 4px;
+    border-color: #00aa0e;
+    padding-left: 10px;
+}
+#tools {
+    background-color: white;
+    border: solid;
+    border-width: 4px;
+    border-color: #00aa0e;
+    margin-top: 15px;
+}
+#toolshead {
+    text-align: center;
+}
+.headertext {
+    margin: 0px 0px 0px 40px;
+    color: white;
+}
+.tab {
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+.label {
+    font-size: 17px;
+    text-align: center;
+}
+.borderA {
+    height: 15px;
+    background: green;
+    background: -webkit-linear-gradient(left top, green, lime);
+    background: -o-linear-gradient(bottom right, green, lime);
+    background: -moz-linear-gradient(bottom right, green, lime);
+    background: linear-gradient(bottom right, green, lime);
+}
+.sectionA {
+    height: 600px;
+    width: 1351px;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+}
+.sectionB {
+    height: 600px;
+    width: 1351px;
+    overflow: hidden;
+    text-align: center;
+    background: white;
+    margin: auto;
+}
+.sectionextend {
+    height: 600px;
+    background: white;
+}
+.sectionHeaderA {
+    font-size: 60px;
+    color: white;
+}
+.sectionHeaderB {
+    font-size: 60px;
+    color: black;
+}
+.sectionTextA {
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.sectionTextB {
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.extlink {
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    color: blue;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    background-color: #303030;
+    margin: 0;
+}
