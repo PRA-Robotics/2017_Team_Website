@@ -174,6 +174,20 @@
     background: -o-linear-gradient(bottom right, green, lime);
     background: -moz-linear-gradient(bottom right, green, lime);
     background: linear-gradient(bottom right, green, lime);
+    box-shadow: 0px 5px 5px black;
+    position: relative;
+    z-index: 0.5;
+}
+.borderB {
+    height: 15px;
+    background: green;
+    background: -webkit-linear-gradient(left top, green, lime);
+    background: -o-linear-gradient(bottom right, green, lime);
+    background: -moz-linear-gradient(bottom right, green, lime);
+    background: linear-gradient(bottom right, green, lime);
+    box-shadow: 0px 5px 5px silver;
+    position: relative;
+    z-index: 0.5;
 }
 .sectionA {
     height: 600px;
@@ -297,4 +311,37 @@ body {
 }
 .sub-menu li:hover {
     background: silver;
+}
+.awardcontain {
+    height: 600px;
+    width: 800px;
+    float: left;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.award {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+}
+.advancementcontain {
+    width: 800px;
+    height: 600px;
+    float: left;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    direction: rtl;
+}
+.advancement {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    border-color: white;
+}
+.rank {
+    color: white;
 }
