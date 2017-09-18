@@ -175,3 +175,43 @@ body {
 .sub-menu li:hover {
     background: silver;
 }
+.achievement {
+    text-align: center;
+    font-size: 20px;
+}
+.achievementgold {
+    padding-top: 5px;
+    border-bottom: solid;
+    border-right: solid;
+    border-width: 4px;
+    border-color: black;
+    background: gold;
+    background: -webkit-linear-gradient(left top, gold, goldenrod);
+    background: -o-linear-gradient(bottom right, gold, goldenrod);
+    background: -moz-linear-gradient(bottom right, gold, goldenrod);
+    background: linear-gradient(bottom right, gold, goldenrod);
+}
+.achievementsilver {
+    padding-top: 5px;
+    border-bottom: solid;
+    border-right: solid;
+    border-width: 4px;
+    border-color: black;
+    background: silver;
+    background: -webkit-linear-gradient(left top, silver, grey);
+    background: -o-linear-gradient(bottom right, silver, grey);
+    background: -moz-linear-gradient(bottom right, silver, grey);
+    background: linear-gradient(bottom right, silver, grey);
+}
+.achievementbronze {
+    padding-top: 5px;
+    border-bottom: solid;
+    border-right: solid;
+    border-width: 4px;
+    border-color: black;
+    background: #A67D3D;
+    background: -webkit-linear-gradient(left top, tan, #A67D3D);
+    background: -o-linear-gradient(bottom right, tan, #A67D3D);
+    background: -moz-linear-gradient(bottom right, tan, #A67D3D);
+    background: linear-gradient(bottom right, tan, #A67D3D);
+}
