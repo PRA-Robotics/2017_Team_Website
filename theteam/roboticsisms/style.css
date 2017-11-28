@@ -9,7 +9,7 @@
 #headercont {
     margin-left: 0;
     height: 150px;
-    width: 600px;
+    
     overflow: hidden;
 }
 #tabcontainer {
@@ -155,7 +155,7 @@ body {
     z-index: 1px;
 }
 .menu {
-    width: 1000px;
+    
     margin: 0px 0px 0px 10%;
 }
 .menu li {
